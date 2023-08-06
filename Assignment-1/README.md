@@ -1,4 +1,4 @@
-# AltSchool Africa Assignment - Node.js Programs
+# ALTSCHOOL AFRICA ASSIGNMENT - NODEJS PROGRAM 
 
 This directory contains Node.js programs for various tasks as part of the AltSchool Africa assignment. The programs showcase different features and functionalities using built-in modules in Node.js.
 
