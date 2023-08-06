@@ -5,13 +5,10 @@ const path = require('path');
 const currentWorkingDir = process.cwd()
 console.log('The current working directory is:', currentWorkingDir);
 
-// // 2. Print the separator of a given file
-const filePath = '/AltSchool/Second-Semester/Assignment/Assignment-1/question-1.js';
-const normalizedPath = path.normalize(filePath);
-const sepIndex = normalizedPath.indexOf(path.sep);
-const separator = normalizedPath.substring(sepIndex, sepIndex +path.sep.length);
+// 2. Print the separator of a given file
+// const filePath = '/AltSchool/Second-Semester/Assignment/Assignment-1/question-1.js';
+const separator = path.sep
 console.log('File path separator is', separator)
-// console.log('File path separator is', sepIndex)
 
 // 3. Print the extension of name of a file path
 const fileExtension = path.extname(filePath);
