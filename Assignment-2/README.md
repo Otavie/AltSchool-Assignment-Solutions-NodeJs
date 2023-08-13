@@ -79,7 +79,7 @@ npm install nodemon
 npm run start:dev
 ```
 
-2. Access the web server by opening your browser and navigating to "http://localhost:PORT" where `PORT` is the port number specified in the code. The port for this project is `4321`
+2. Access the web server by opening your browser and navigating to **http://localhost:PORT** where **PORT** is the port number specified in the code. The port for this project is `4321`
 
 ### Accessing the API Server
 
@@ -89,7 +89,7 @@ npm run start:dev
 npm run start:api
 ```
 
-2. Access the API server by opening an API testing tool, like `Postman` or `Thunder Client`. On the address bar, add `http://localhost:PORT` where `PORT` is the port number specified in the code. The port for this project is `54321`
+2. Access the API server by opening an API testing tool, like **Postman** or **Thunder Client**. On the address bar, add **http://localhost:PORT** where **PORT** is the port number specified in the code. The port for this project is `54321`
 
 
 ## Conclusion
