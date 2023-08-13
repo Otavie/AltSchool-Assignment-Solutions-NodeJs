@@ -67,9 +67,9 @@ To run the assignment, follow these steps:
 2. Navigate to the project directory in your terminal.
 3. Install the nodemon dependency:
 
-   ```
-   npm install nodemon
-   ```
+```
+npm install nodemon
+```
 
 ### Accessing the Web Server
 
