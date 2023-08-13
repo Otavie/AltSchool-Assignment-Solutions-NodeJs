@@ -16,7 +16,7 @@ The web server also includes a feature that handles navigation to non-existent H
 
 ### Inventory Information Management
 
-The API server is dedicated to managing inventory information for various items. It offers a range of functionalities for CRUD (Create, Read, Update, Delete) operations.
+The API server is dedicated to managing inventory information for various items (in this case and for the purpose of the tasks at hand, we focused on **Apple Laptop**). It offers a range of functionalities for CRUD (Create, Read, Update, Delete) operations.
 
 #### API Endpoints
 
@@ -30,10 +30,13 @@ The API server is dedicated to managing inventory information for various items.
 3. **Get One Item**: `GET /items/:id`
    - Endpoint to retrieve information about a specific item based on its Id.
    
-4. **Update Item**: `PUT /items/:id`
-   - Endpoint to update information about a specific item based on its Id.
+4. **Update Item Using PUT**: `PUT /items/:id`
+   - Endpoint to perform full/complete update about a specific item based on its Id.
+
+5. **Update Item Using PATCH**: `PATCH /items/:id`
+   - Endpoint to perform partial update about a specific item based on its Id.
    
-5. **Delete Item**: `DELETE /items/:id`
+6. **Delete Item**: `DELETE /items/:id`
    - Endpoint to delete a specific item based on its Id.
 
 #### Item Attributes
@@ -50,7 +53,7 @@ The code is developed with a focus on consistency in the data structure returned
 
 ### Data Persistence
 
-The assignment does not involve using a database. Instead, data is persisted using the file system, specifically the "items.json" file.
+The assignment does not involve using a database. Instead, data is persisted using the file system, specifically the "apple-laptops.json" file.
 
 ### Error Handling
 
@@ -62,8 +65,32 @@ To run the assignment, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory in your terminal.
-3. Run `node index.js` to start the web and API servers.
-4. Access the web server by opening your browser and navigating to "http://localhost:PORT" where `PORT` is the port number specified in the code.
+3. Install the nodemon dependency:
+
+   ```
+   npm install nodemon
+   ```
+
+### Accessing the Web Server
+
+1. To run the Node.js web server, use the command below:
+
+```
+npm run start:dev
+```
+
+2. Access the web server by opening your browser and navigating to "http://localhost:PORT" where `PORT` is the port number specified in the code. The port for this project is `4321`
+
+### Accessing the API Server
+
+1. To run the Node.js API server, use the command below:
+
+```
+npm run start:api
+```
+
+2. Access the API server by opening an API testing tool, like `Postman` or `Thunder Client`. On the address bar, add `http://localhost:PORT` where `PORT` is the port number specified in the code. The port for this project is `54321`
+
 
 ## Conclusion
 
