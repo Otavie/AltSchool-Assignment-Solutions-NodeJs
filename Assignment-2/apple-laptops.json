@@ -88,5 +88,17 @@
         "price": "₦ 2,850,000",
         "size": "large",
         "id": "36"
+    },
+    {
+        "name": "Apple 13.6 inches MacBook Air (M2, Midnight) 8GB /256GB",
+        "price": "₦ 1,150,000",
+        "size": "small",
+        "id": "919"
+    },
+    {
+        "name": "Apple MacBook Air 13-inch 2022 M2 / 8GB / 256GB SSD / 8-Core GPU / Space Gray",
+        "price": "₦ 1,150,000",
+        "size": "small",
+        "id": "973"
     }
 ]
