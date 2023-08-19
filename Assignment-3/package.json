@@ -1,14 +1,17 @@
 {
-  "name": "assignment-2",
+  "name": "assignment-3",
   "version": "1.0.0",
-  "description": "AltSchool Assignment-2",
+  "description": "AltSchool Assignment-3",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "start:dev": "nodemon index.js",
+    "start": "node web.js",
+    "start:dev": "nodemon web.js",
     "start:api": "nodemon api.js"
   },
   "author": "Otavie Okuoyo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
