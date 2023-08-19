@@ -1,0 +1,14 @@
+{
+  "name": "assignment-2",
+  "version": "1.0.0",
+  "description": "AltSchool Assignment-2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "start:api": "nodemon api.js"
+  },
+  "author": "Otavie Okuoyo",
+  "license": "ISC"
+}
