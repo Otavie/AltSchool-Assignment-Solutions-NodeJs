@@ -26,13 +26,9 @@ const handle404 = async (req, res) => {
     res.status(400).sendFile(notFoundPage);
 }
 
-
-
-
 app.get('/index.html', handleIndex)
 app.get('/about.html', handleAbout)
 app.get('*', handle404)
-
 
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`)

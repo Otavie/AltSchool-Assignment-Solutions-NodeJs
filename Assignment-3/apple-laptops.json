@@ -100,5 +100,11 @@
         "price": "₦ 1,150,000",
         "size": "small",
         "id": "973"
+    },
+    {
+        "name": "Apple MacBook Air 15.3 inches - M2 Chip - 8GB RAM 256GB - 8-Core CPU / 10-Core GPU - Starlight - 2023",
+        "price": "₦ 1,290,999",
+        "size": "large",
+        "id": "170"
     }
 ]
