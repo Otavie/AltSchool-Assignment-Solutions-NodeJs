@@ -12,21 +12,26 @@ const notFoundPage = path.join(__dirname, 'public', '404.html');
 
 app.use(express.static('public'));
 
-app.get('/index.html', async (req, res) =>{
+const handleIndex = async (req, res) => {
     const file = await fsPromise.readFile(indexPage);
     res.status(200).send(file);
-})
+}
 
-app.get('/about.html', async (req, res) =>{
+const handleAbout = async (req, res) => {
     const file = await fsPromise.readFile(aboutPage);
     res.status(200).send(file);
-})
+}
 
-app.get('*', (req, res) => {
-    res.status(404).sendFile(notFoundPage)
-})
+const handle404 = async (req, res) => {
+    res.status(400).sendFile(notFoundPage);
+}
 
 
+
+
+app.get('/index.html', handleIndex)
+app.get('/about.html', handleAbout)
+app.get('*', handle404)
 
 
 app.listen(PORT, () => {
