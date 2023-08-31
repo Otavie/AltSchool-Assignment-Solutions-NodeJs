@@ -20,6 +20,10 @@ const server = http.createServer((req, res) =>{
     if (req.url.startsWith('/students/') && req.method === "PUT") {
         PartUpdate(req, res);
     }
+
+    if (req.url.startsWith('/students/') && req.method === "DELETE") {
+        DeleteStudent(req, res);
+    }
 })
 
 // GET All Students
@@ -155,6 +159,40 @@ function PartUpdate(req, res) {
 
         res.end();
     })
+}
+
+function DeleteStudent(req, res) {
+    const urlID = req.url.split('/')[2];
+    
+    fs.readFile(studentsFile, 'utf-8', (error, fileData) => {
+        if (error) {
+            console.log(error);
+            return;
+        }
+
+        let students = JSON.parse(fileData);
+        const studentInd = students.findIndex(student => student.id === urlID);
+
+        if (studentInd !== -1) {
+            students.splice(studentInd, 1);
+
+            fs.writeFile(studentsFile, JSON.stringify(students, null, 4), 'utf-8', (error) => {
+                if (error) {
+                    console.log(error);
+                    return;
+                }
+
+                res.setHeader('content-type', 'application/json');
+                res.writeHead(200).write(JSON.stringify({ message: 'Student deleted successfully!' }));
+                res.end();
+            })
+        } else {
+            res.writeHead(404).write(`No Student with ID of ${urlID} Exist!`);
+            res.end();
+        }
+    
+    })
+
 }
 
 
