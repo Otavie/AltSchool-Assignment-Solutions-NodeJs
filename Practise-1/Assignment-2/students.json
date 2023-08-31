@@ -1,0 +1,44 @@
+[
+    {
+        "id": "4c6b2f58-df26-4b1e-8ac0-6006fa005377",
+        "name": "Otavie Okuoyo",
+        "department": "NodeJS",
+        "school": "Software Engineering"
+    },
+    {
+        "id": "7cda01b7-2506-4396-a56c-60aadf4106c0",
+        "name": "Life Otavie",
+        "department": "Backend",
+        "school": "Software Engineering"
+    },
+    {
+        "id": "d2bd98e2-e968-48f8-aff7-4b24f0c1a74e",
+        "name": "Jumoke Abioye",
+        "department": "UI/UX",
+        "school": "Design"
+    },
+    {
+        "id": "94ef7142-8936-4eaf-b4a1-5a36bc8a28ad",
+        "name": "Felix Adebayo",
+        "department": "AWS Cloud Services",
+        "school": "Cloud Enginnering"
+    },
+    {
+        "id": "b7185172-b6bd-48c6-b2c3-66365420611c",
+        "name": "Martha Akindayo",
+        "department": "Google Cloud Services",
+        "school": "Cloud Enginnering"
+    },
+    {
+        "id": "6e5fe17a-8791-4d9e-99b2-8bd048d45b3a",
+        "name": "Daniel Black",
+        "department": "CAD",
+        "school": "Design"
+    },
+    {
+        "id": "ac99575f-4cef-41e4-b6da-e2c49141ba01",
+        "name": "Folo Loowwie",
+        "department": "Sales Force",
+        "school": "Sales and Marketing"
+    }
+]
