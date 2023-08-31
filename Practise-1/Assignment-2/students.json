@@ -21,13 +21,13 @@
         "id": "94ef7142-8936-4eaf-b4a1-5a36bc8a28ad",
         "name": "Felix Adebayo",
         "department": "AWS Cloud Services",
-        "school": "Cloud Enginnering"
+        "school": "Cloud Engineering"
     },
     {
         "id": "b7185172-b6bd-48c6-b2c3-66365420611c",
         "name": "Martha Akindayo",
         "department": "Google Cloud Services",
-        "school": "Cloud Enginnering"
+        "school": "Cloud Engineering"
     },
     {
         "id": "6e5fe17a-8791-4d9e-99b2-8bd048d45b3a",
@@ -37,7 +37,7 @@
     },
     {
         "id": "ac99575f-4cef-41e4-b6da-e2c49141ba01",
-        "name": "Folo Loowwie",
+        "name": "Smart Chike",
         "department": "Sales Force",
         "school": "Sales and Marketing"
     }
