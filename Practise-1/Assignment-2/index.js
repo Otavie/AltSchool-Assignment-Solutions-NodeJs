@@ -12,8 +12,17 @@ const server = http.createServer((req, res) => {
     }
 
     if (req.url.endsWith('.html') && req.method === 'GET') {
-        const splitURL = req.url.split('/');
-        console.log(splitURL);
+        try {
+            const splitURL = req.url.split('/');
+            const fileLocation = `./${splitURL[1]}`;
+            const file = fs.readFileSync(fileLocation);
+            res.setHeader('content-type', 'text\html').writeHead(200).write(file)
+            res.end();
+        } catch (error) {
+            const file = fs.readFileSync('./404.html');
+            res.setHeader('content-type', 'text/html').writeHead(404).write(file);
+            res.end()
+        }
     }
 });
 
