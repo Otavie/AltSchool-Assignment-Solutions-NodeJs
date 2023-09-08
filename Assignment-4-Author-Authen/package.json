@@ -5,13 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node web.js",
-    "start:dev": "nodemon web.js",
-    "start:api": "nodemon api.js"
+    "start": "nodemon api.js"
   },
   "author": "Otavie Okuoyo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "uuidv4": "^6.2.13"
   }
 }

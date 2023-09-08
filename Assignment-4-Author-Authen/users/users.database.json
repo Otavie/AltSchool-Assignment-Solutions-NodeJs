@@ -1,34 +1,26 @@
 [
     {
+        "username": "gary",
+        "password": "gary1234",
+        "email": "gary@gmail.com",
+        "role": "employee",
+        "api_key": "b16ced2f-c0a8-4b98-a7ee-e6e340aa93b6",
+        "id": "370"
+    },
+    {
         "username": "otavie",
         "password": "otavie1234",
         "email": "otavie@gmail.com",
         "role": "admin",
-        "api_key": "otavie_otavie1234",
-        "id": "590"
-    },
-    {
-        "username": "david",
-        "password": "david1234",
-        "email": "david@gmail.com",
-        "role": "employee",
-        "api_key": "david_david1234",
-        "id": "287"
-    },
-    {
-        "username": "james",
-        "password": "james1234",
-        "email": "james@gmail.com",
-        "role": "employee",
-        "api_key": "james_james1234",
-        "id": "709"
+        "api_key": "dd8b000c-c2a1-4077-9563-315799c36018",
+        "id": "206"
     },
     {
         "username": "peace",
         "password": "peace1234",
         "email": "peace@gmail.com",
         "role": "employee",
-        "api_key": "peace_peace1234",
-        "id": "766"
+        "api_key": "64c472dc-ad41-41ae-a3b9-acce8679a892",
+        "id": "27"
     }
 ]

@@ -1,6 +1,7 @@
 const fsPromise = require('fs').promises;
 const path = require('path');
 const USER_FILE = path.join(__dirname, '.', 'users.database.json');
+const { v4: uuidv4 } = require('uuid');
 
 // Register a User
 const registerUser = async (req, res) => {
@@ -11,7 +12,7 @@ const registerUser = async (req, res) => {
         const role = (email === 'otavie@gmail.com' || email === 'life@gmail.com') ? 'admin' : 'employee';
 
         // Automatically Generate API Key
-        const api_key = `${username}_${password}`;
+        const api_key = uuidv4();
 
         const newUser = {
             username, password, email, role, api_key,
