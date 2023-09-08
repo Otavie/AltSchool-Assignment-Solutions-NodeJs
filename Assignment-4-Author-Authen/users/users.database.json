@@ -1,0 +1,34 @@
+[
+    {
+        "username": "otavie",
+        "password": "otavie1234",
+        "email": "otavie@gmail.com",
+        "role": "admin",
+        "api_key": "otavie_otavie1234",
+        "id": "590"
+    },
+    {
+        "username": "david",
+        "password": "david1234",
+        "email": "david@gmail.com",
+        "role": "employee",
+        "api_key": "david_david1234",
+        "id": "287"
+    },
+    {
+        "username": "james",
+        "password": "james1234",
+        "email": "james@gmail.com",
+        "role": "employee",
+        "api_key": "james_james1234",
+        "id": "709"
+    },
+    {
+        "username": "peace",
+        "password": "peace1234",
+        "email": "peace@gmail.com",
+        "role": "employee",
+        "api_key": "peace_peace1234",
+        "id": "766"
+    }
+]

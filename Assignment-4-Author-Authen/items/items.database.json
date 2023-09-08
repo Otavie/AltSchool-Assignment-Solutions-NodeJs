@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Apple MacBook Pro 14.2 inches - M2 Pro Chip -12Cores CPU/19Cores GPU - 16GB RAM - 1TB - Silver - 2023",
+        "price": "₦ 2,222,999",
+        "size": "medium",
+        "id": "48"
+    },
+    {
+        "name": "Apple MacBook Air 13 inches M1 Chip 8GB 256GB 2020 Model - Gold",
+        "price": "₦ 825,000",
+        "size": "small",
+        "id": "264"
+    },
+    {
+        "name": "Apple MacBook Pro 16 inches M1 Pro Chip 16GB RAM, 1TB (2021 Model) Gray",
+        "price": "₦ 1,800,000",
+        "size": "large",
+        "id": "163"
+    },
+    {
+        "name": "Apple MacBook Pro 14 inches M1 Pro Chip 16GB RAM, 512GB (2021 Model) Silver",
+        "price": "₦ 1,650,000",
+        "size": "medium",
+        "id": "497"
+    },
+    {
+        "name": "Apple MacBook Pro 16 inches Laptop - M2 Max Chip - 32GB Memory - 1TB SSD Space Gray",
+        "price": "₦ 2,850,000",
+        "size": "large",
+        "id": "495"
+    },
+    {
+        "name": "Apple MacBook Air 15.3 inches - M2 Chip - 8GB RAM 256GB - 8-Core CPU/10-Core GPU - Starlight - 2023",
+        "price": "₦ 1,220,999",
+        "size": "large",
+        "id": "74"
+    },
+    {
+        "name": "Apple MacBook Pro 16.2 inches With M1 Max 32GB/1TB 10 Cores - Silver",
+        "price": "₦ 2,600,999",
+        "size": "large",
+        "id": "282"
+    },
+    {
+        "name": "Apple MacBook Pro With M2 Chip 13.3 inches 512GB 8 Cores - Space Grey",
+        "price": "₦ 1,295,999",
+        "size": "small",
+        "id": "85"
+    },
+    {
+        "name": "Apple MacBook Pro 14 inches Laptop - M2 Pro Chip - 16GB - 512GB SSD LATEST MODEL - Space Gray",
+        "price": "₦ 1,650,000",
+        "size": "medium",
+        "id": "111"
+    },
+    {
+        "name": "Apple MacBook Pro With M2 Chip 13.3 inches 256GB 8 Cores - Space Grey",
+        "price": "₦ 1,110,999",
+        "size": "small",
+        "id": "244"
+    },
+    {
+        "name": "Apple MacBook Pro 13.3 inches - 8GB - 512GB - Space Grey - M1",
+        "price": "₦ 1,450,000",
+        "size": "small",
+        "id": "54"
+    },
+    {
+        "name": "Apple MacBook Pro 14 inches Laptop - M2 Pro Chip - 16GB - 512GB SSD - Space Gray",
+        "price": "₦ 7,700,000",
+        "size": "medium",
+        "id": "427"
+    },
+    {
+        "name": "Apple MacBook Pro 13.3 inches - 256GB - 8cores - SILVER - M2 - 2022",
+        "price": "₦ 1,200,000",
+        "size": "small",
+        "id": "31"
+    },
+    {
+        "name": "Apple MacBook Pro 16.2 inches - 32GB - 1TB - 10 Cores - M1 Max - Silver",
+        "price": "₦ 2,650,000",
+        "size": "large",
+        "id": "22"
+    },
+    {
+        "name": "Apple MacBook Pro 16.2 inches - 32GB - 1TB - 10 Cores - M1 Max Spacegrey",
+        "price": "₦ 2,850,000",
+        "size": "large",
+        "id": "36"
+    },
+    {
+        "name": "Apple 13.6 inches MacBook Air (M2, Midnight) 8GB /256GB",
+        "price": "₦ 1,150,000",
+        "size": "small",
+        "id": "919"
+    },
+    {
+        "name": "Apple MacBook Air 13-inch 2022 M2 / 8GB / 256GB SSD / 8-Core GPU / Space Gray",
+        "price": "₦ 1,150,000",
+        "size": "small",
+        "id": "973"
+    },
+    {
+        "name": "Apple MacBook Air 15.3 inches - M2 Chip - 8GB RAM 256GB - 8-Core CPU / 10-Core GPU - Starlight - 2023",
+        "price": "₦ 1,290,999",
+        "size": "large",
+        "id": "170"
+    },
+    {
+        "name": "Apple MacBook Pro With M1 Pro Chip 16.2 inches 16GB / 1TB - Space Grey",
+        "price": "₦ 1,950,999",
+        "size": "large",
+        "id": "222"
+    }
+]

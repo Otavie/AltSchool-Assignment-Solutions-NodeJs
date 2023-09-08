@@ -43,7 +43,7 @@ function GetAllStudents(req, res) {
 
 // Add a Student
 function AddStudent(req, res) {
-    fs.readFile(studentsFile, 'utf-8', (error) => {
+    fs.readFile(studentsFile, 'utf-8', (error) => { 
         if (error) {
             console.log(error);
             return;
